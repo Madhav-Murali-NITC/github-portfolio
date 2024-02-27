@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import './App.css';
 import Landing from './pages/Landing';
 import ECommercePlatformDocumentation from './pages/projects/ECommercePlatformDocumentation';
