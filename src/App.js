@@ -10,7 +10,7 @@ import RDBMS from './pages/projects/RDBMS';
 function App() {
   return (
     <div className="App">
-      <Router>
+      
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/ecommerce" element={<ECommercePlatformDocumentation />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="/rdbms" element={<RDBMS />} />
 
         </Routes>
-      </Router>
+    
       
     </div>
 
