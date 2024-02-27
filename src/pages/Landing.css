@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    margin: 5px 0;
+}
+
+.header h3 {
+    margin: 5px 0;
+}
+
+/* About Me Styles */
+.about-me {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.about-me h1 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+/* Projects Styles */
+.projects {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.projects h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    background-color: #007bff;
+}
+
+.projects ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 10vh;
+}
+
+.projects h2 {
+    color: #343a40;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.projects p {
+    color: #6c757d;
+    line-height: 1.5;
+    text-align: left; /* Align text left */
+}
+
+
+.projects button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Move buttons to the right */
+     /* Add some margin between buttons */
+}
+.projects label{
+    float:right;
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+.projects button:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Styles */
+.contact {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.contact ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+.contact ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+}

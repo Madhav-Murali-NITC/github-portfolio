@@ -1,0 +1,101 @@
+.nitconf--container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nitconf--container h1,
+.nitconf--container h2,
+.nitconf--container h3,
+.nitconf--container p,
+.nitconf--container ul,
+.nitconf--container li {
+    text-align: left;
+}
+
+.nitconf--container h1 {
+    font-size: 28px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.nitconf--container h2 {
+    font-size: 24px;
+    color: #343a40;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.nitconf--container h3 {
+    font-size: 20px;
+    color: #343a40;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.nitconf--container p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.nitconf--container ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.nitconf--container ul li {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.nitconf--container ul li::before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.nitconf--container code {
+    background-color: #f8f9fa;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.nitconf--container blockquote {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.nitconf--container blockquote p {
+    margin: 0;
+}
+
+.nitconf--container hr {
+    border: none;
+    border-top: 1px solid #dee2e6;
+    margin: 20px 0;
+}
+
+
+.nitconf--container button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Move buttons to the right */
+     /* Add some margin between buttons */
+}

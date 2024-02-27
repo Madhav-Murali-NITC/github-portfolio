@@ -1,0 +1,94 @@
+.rdbms-project {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.rdbms-project h1 {
+    font-size: 28px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.rdbms-project h2 {
+    font-size: 24px;
+    color: #343a40;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.rdbms-project h3 {
+    font-size: 20px;
+    color: #343a40;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.rdbms-project p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.rdbms-project ol,
+.rdbms-project ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.rdbms-project ol li,
+.rdbms-project ul li {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.rdbms-project ol li::before,
+.rdbms-project ul li::before {
+    content: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.rdbms-project code {
+    background-color: #f8f9fa;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.rdbms-project blockquote {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.rdbms-project blockquote p {
+    margin: 0;
+}
+
+.rdbms-project hr {
+    border: none;
+    border-top: 1px solid #dee2e6;
+    margin: 20px 0;
+}
+
+.rdbms-project button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Move buttons to the right */
+     /* Add some margin between buttons */
+}

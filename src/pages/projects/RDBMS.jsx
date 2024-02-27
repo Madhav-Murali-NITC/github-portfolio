@@ -1,11 +1,19 @@
 import React from 'react';
+import './RDBMS.css';
+import { useNavigate } from 'react-router-dom';
 
 const RDBMS = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/');
+  }
+
     return (
         <div className="rdbms-project">
       <h1>NITCbase: RDBMS Implementation Project</h1>
-      <h2>Introduction</h2>
-      <p>NITCbase is a Relational Database Management System (RDBMS) implementation project aimed at helping undergraduate students grasp the design and data structures of an elementary RDBMS by building one themselves. The project provides a step-by-step implementation roadmap, detailed documentation with tutorials, and complete design and specification of the RDBMS and its various component subsystems.</p>
+      <button onClick = {handleClick}>Back</button>
+    
       
       <h2>About</h2>
       <p>NITCbase follows an eight-layer design, encompassing the basic capabilities of a standard RDBMS, including table creation and deletion, record insertion, selection queries, and indexing using B+ Trees. The implemented RDBMS supports elementary SQL queries such as create, drop, alter, insert, select, project, equi-join, and indexing queries like create index and drop index. However, concurrency support is currently not included.</p>
@@ -30,16 +38,7 @@ const RDBMS = () => {
         <li>XFS Interface</li>
       </ul>
       
-      <h2>Provided Resources</h2>
-      <p>The project assumes a Unix/Linux environment and provides resources to get started, including:</p>
-      <ul>
-        <li>XFS Interface for disk access</li>
-        <li>Disk class implementation</li>
-        <li>Class definitions for intermediate layers</li>
-        <li>Partial implementation of the Frontend Interface</li>
-        <li>Detailed documentation with specifications, tutorials, and design details</li>
-        <li>A roadmap for step-by-step implementation</li>
-      </ul>
+     
       
       <h2>Functional Description of Layers</h2>
       <p>Each layer of NITCbase serves specific functionalities:</p>
