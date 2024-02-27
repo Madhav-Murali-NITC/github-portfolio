@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link } from 'react-router-dom';
 
 const Landing = () => {
     return (
@@ -21,13 +22,13 @@ const Landing = () => {
                     <p>The movie recommendation system was designed and implemented using Python's Pandas and Scikit-learn libraries. Utilizing a dataset comprising information on 5000 movies, including titles, genres, and synopses, the system leverages the bag-of-words technique for text analysis. Stringent preprocessing steps were applied to the movie summaries, including the removal of punctuation, standardization of text to lowercase, and the elimination of stopwords. Through cosine similarity calculations between bag-of-words vectors, the system accurately recommends the top 5 most relevant movies based on a given movie name input.</p>
                 </li>
                 <li>
-                <a href ='/ecommerce'><h1>E-Commerce Website<label>[click for detalis]</label></h1></a>
+                <Link to ='/ecommerce'><h1>E-Commerce Platform Documentation<label>[click for detalis]</label></h1></Link>
                 </li>
                 <li>
-                <a href ='/nitconf'><h1>NITCONF<label>[click for detalis]</label></h1></a>
+                <Link to ='/nitconf'><h1>NITCONF: Author Paper Submission Application<label>[click for detalis]</label></h1></Link>
                 </li>
                 <li>
-                <a href ='/rdbms'><h1>RDBMS<label>[click for detalis]</label></h1></a>
+                <Link to ='/rdbms'><h1>NITCbase: RDBMS Implementation Project<label>[click for detalis]</label></h1></Link>
                 </li>
                 <li>
                     <h2>Ragam website</h2>

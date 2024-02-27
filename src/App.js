@@ -12,10 +12,10 @@ function App() {
     <div className="App">
         <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/ecommerce" element={<ECommercePlatformDocumentation />} />
-          <Route path="/nitconf" element={<NITCONF />} />
-          <Route path="/rdbms" element={<RDBMS />} />
+          <Route exact path="/" element={<Landing />} />
+          <Route exact path="/ecommerce" element={<ECommercePlatformDocumentation />} />
+          <Route exact path="/nitconf" element={<NITCONF />} />
+          <Route exact path="/rdbms" element={<RDBMS />} />
 
         </Routes>
       </Router>
