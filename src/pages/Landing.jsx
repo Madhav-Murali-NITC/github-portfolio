@@ -8,7 +8,7 @@ const Landing = () => {
             <div className='header'>
                 <h1>Madhav Murali</h1>  
                 <h3>Computer Science and Engineering Student</h3>
-                <h3>Age 21</h3>
+                <h3>Age 20</h3>
                 <h3>B.Tech at National Institute of Technology,Calicut</h3>
             </div>
         <div className='about-me'>
@@ -22,6 +22,7 @@ const Landing = () => {
                     <h2>Movie Recommender System</h2>
                     <p>
 A movie recommendation system, implemented in Python using Pandas and Scikit-learn libraries, analyzes a dataset of 5000 movies' information, leveraging the bag-of-words technique for text analysis. By preprocessing movie summaries and employing cosine similarity calculations, it accurately recommends the top 5 most relevant movies based on user input.</p>
+<button onClick = {()=>{window.location.href = 'https://github.com/Madhav-Murali-NITC/Movie-recommend-system'}}>Repository</button>
                 </li>
                 <li>
                 <h2>E-Commerce Platform </h2><p> Project using React JS,express,MySQL,Node Js,HTML and CSS.Overview of our e-commerce platform, highlighting key features such as the cart system, product management, and role-based authentication.</p><Link to ='/ecommerce'><label>[click for details]</label></Link><button onClick = {()=>{window.location.href = 'https://github.com/Madhav-Murali-NITC/E-Commerce-Website'}}>Repository</button>
